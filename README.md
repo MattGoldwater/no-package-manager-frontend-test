@@ -12,7 +12,7 @@ You can check out the index.html file in the variables-add-to-global-scope direc
 
 To solve these problems developers turned to module bundlers, which let front-end developers use a module system to avoid adding global variables. This is explained in more detail here (https://wesbos.com/javascript-modules/). If you've already used ES modules and a module bundler in a project before you can stop reading that article at the header "Creating Your Own Modules." 
 
-JavaScript module bundlers run in node on the back-end. That's why you can use a package manager for node to install packages. The module bundler will create the code, which will actually run on the browser.
+JavaScript module bundlers run in node on the back-end. That's why you can use a package manager for node to install packages. The module bundler will create the application or library code that will actually run on the browser.
 
 The workflow described in the wes bos blog post I linked to above is still common today, though [webpack](https://webpack.js.org/) and [parcel](https://parceljs.org/) have emerged as the two most popular module bundlers.
 
